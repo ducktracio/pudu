@@ -1,0 +1,106 @@
+
+.subtituloWeb
+{   
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.encabezado{
+    background-color: rgb(117, 182, 142);
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articleTitle{
+    text-align: center;
+    font-size: 25px;
+}
+
+.articleSubtitle{
+    text-align: center;
+}
+
+.asideSecciones
+{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    display: inline;
+    border: rgba(255, 255, 255, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+#seccion{
+    float: left;
+    width: 813.5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#columna{
+    background-color: rgb(117, 182, 142);
+    float: right;
+    width: 250px;
+    padding-inline: 80px;
+    padding-block: 10px;
+    text-align: center;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: auto;
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+}
+
+article{
+    padding-bottom: 25px;
+}
+
+p
+{
+    text-align: justify;
+    margin: 10px;
+}
+
+img
+{  
+    border-radius: 8px;
+    text-align: center;
+}
+
+figure
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
