@@ -1,2 +1,2 @@
 # pudu
- Simple blog created with HTML and CSS.
+ Simple static web blog created with HTML and CSS.
