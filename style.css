@@ -52,18 +52,19 @@ li{
 
 #seccion{
     float: left;
-    width: 813.5px;
+    width: 77%;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 #columna{
     background-color: rgb(117, 182, 142);
-    float: right;
-    width: 250px;
-    padding-inline: 80px;
-    padding-block: 10px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
     text-align: center;
+    border-radius: 10px;
 }
 
 #footer{
@@ -99,8 +100,18 @@ figure
     text-align: center;
 }
 
+html{
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
