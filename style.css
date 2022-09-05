@@ -20,7 +20,7 @@
 
 .articleTitle{
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .articleSubtitle{
@@ -36,18 +36,16 @@
     color: white;
 }
 
-nav{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-li{
-    display: inline;
-    border: rgba(255, 255, 255, 0);
-    padding: 10px;
+.temaMusical
+{
+    background-color: rgba(3, 3, 3, 0.185);
+    width: 45%;
+    height: 100%;
     margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
 }
 
 #seccion{
@@ -76,8 +74,26 @@ li{
     padding-block: 10px;
 }
 
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    display: inline;
+    border: rgba(255, 255, 255, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+section{
+    margin-block: 20px;
+}
+
 article{
-    padding-bottom: 25px;
+    padding: 25px;
 }
 
 p
