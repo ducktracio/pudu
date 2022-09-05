@@ -36,6 +36,12 @@
     color: white;
 }
 
+.asideSection{
+    background-color: rgb(117, 182, 142);
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .temaMusical
 {
     background-color: rgba(3, 3, 3, 0.185);
@@ -48,21 +54,20 @@
     text-align: center;
 }
 
+
+
 #seccion{
     float: left;
     width: 77%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-inline: 40px;
 }
 
 #columna{
-    background-color: rgb(117, 182, 142);
     float: left;
     width: 20%;
     padding: 10px;
     margin: 15px;
     text-align: center;
-    border-radius: 10px;
 }
 
 #footer{
